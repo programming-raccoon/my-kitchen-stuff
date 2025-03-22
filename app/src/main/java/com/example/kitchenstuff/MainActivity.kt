@@ -33,6 +33,7 @@ fun groceryList(name: String) {
     Text(text = "Lista de la compra")
 }
 
+@Composable
 fun itemDueDate (name: String, date: String) { // TODO cambiar esto a date: due date
     Text(text = "Fecha de caducidad")
 }
